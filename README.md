@@ -3,7 +3,7 @@
 </div>
 EBuild Repository for installing Freesm Launcher on Gentoo Linux.
 
-## Adding
+## Adding to Portage
 ```
 eselect repository add freesmlauncher-overlay git https://github.com/FreesmTeam/freesmlauncher-overlay/
 ```
