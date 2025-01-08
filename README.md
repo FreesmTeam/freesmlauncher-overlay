@@ -8,7 +8,7 @@ EBuild Repository for installing Freesm Launcher on Gentoo Linux.
 eselect repository add freesmlauncher-overlay git https://github.com/FreesmTeam/freesmlauncher-overlay/
 ```
 
-## Installing (freesmlauncher)
+## Installing
 ```
 emerge -av games-action/freesmlauncher
 ```
