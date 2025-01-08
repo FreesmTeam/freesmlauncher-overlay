@@ -7,7 +7,7 @@ QTMIN=6.0.0 # ???
 inherit cmake java-pkg-2 optfeature toolchain-funcs xdg
 
 DESCRIPTION="Prism Launcher fork aimed to provide a free way to play Minecraft."
-HOMEPAGE="https://freesmlauncher.windstone.space// https://github.com/FreesmTeam/FreesmLauncher/"
+HOMEPAGE="https://freesmlauncher.windstone.space/ https://github.com/FreesmTeam/FreesmLauncher/"
 
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
