@@ -3,7 +3,7 @@
 
 EAPI=8
 
-QTMIN=6.0.0 # ???
+QTMIN=6.0.0
 inherit cmake java-pkg-2 optfeature toolchain-funcs xdg
 
 DESCRIPTION="Prism Launcher fork aimed to provide a free way to play Minecraft."
@@ -12,10 +12,6 @@ HOMEPAGE="https://freesmlauncher.windstone.space/ https://github.com/FreesmTeam/
 if [[ ${PV} == *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/FreesmTeam/FreesmLauncher/"
-	# EGIT_SUBMODULES=(
-	# 	'*' '-libraries/cmark' '-libraries/extra-cmake-modules' '-libraries/filesystem' '-libraries/quazip'
-	# 	'-libraries/tomlplusplus' '-libraries/zlib'
-	# )
 	EGIT_SUBMODULES=( 
 	libraries/quazip
 	libraries/filesystem
@@ -26,7 +22,6 @@ if [[ ${PV} == *9999* ]]; then
 	libraries/libnbtplusplus
 	)
 else
-	# MY_PN="PrismLauncher"
     MY_PN="FreesmLauncher"
     MY_PV=$(ver_cut 1-2)-free-$(ver_cut 3)
 	# use vendored tarball to avoid dealing with submodules directly
