@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>me@m3wz.su</email>
+    <name>Evgeniy (m3oweezed)</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>ilhainshakov@yandex.ru</email>
+    <name>Kaeeraa</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>so5iso4ka@icloud.com</email>
+    <name>so5iso4ka</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>s0me1newithhand7s@gmail.com</email>
+    <name>hand7s</name>
+  </maintainer>
+  <maintainer type="person">
+    <email>notwindstone@gmail.com</email>
+    <name>windstone</name>
+  </maintainer>
+  <upstream>
+    <bugs-to>https://github.com/FreesmTeam/FreesmLauncher/issues</bugs-to>
+    <doc>https://prismlauncher.org/wiki/</doc>
+    <remote-id type="github">FreesmTeam/FreesmLauncher</remote-id>
+  </upstream>
+  <longdescription>Freesm Launcher is a custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once and login with offline account without any restrictions. This is a fork of the Prism Launcher and is not endorsed by it.</longdescription>
+</pkgmetadata>
