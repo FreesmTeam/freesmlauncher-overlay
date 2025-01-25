@@ -23,10 +23,10 @@ if [[ ${PV} == *9999* ]]; then
 	)
 else
     MY_PN="FreesmLauncher"
-    MY_PV=$(ver_cut 1-2)-free-$(ver_cut 3)
+    MY_PV=sequoia
 	# use vendored tarball to avoid dealing with submodules directly
 	SRC_URI="
-		https://github.com/FreesmTeam/FreesmLauncher/releases/download/${MY_PV}/${MY_PN}-release.tar.gz -> ${P}.tar.gz
+		https://github.com/FreesmTeam/FreesmLauncher/releases/download/${MY_PV}-${PV}/${MY_PN}-release.tar.gz -> ${P}.tar.gz
 	"
 	S="${WORKDIR}/${MY_PN}-develop"
 	KEYWORDS="~amd64 ~arm64"
